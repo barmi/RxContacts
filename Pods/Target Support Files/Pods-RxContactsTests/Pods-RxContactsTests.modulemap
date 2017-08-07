@@ -1,0 +1,6 @@
+framework module Pods_RxContactsTests {
+  umbrella header "Pods-RxContactsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
