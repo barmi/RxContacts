@@ -1,15 +1,14 @@
 //
-//  RxContactsTests.swift
-//  RxContactsTests
+//  ContactsTests.swift
+//  RxContacts
 //
 //  Created by Bryan A Bolivar M on 8/7/17.
 //  Copyright © 2017 bolivarbryan. All rights reserved.
 //
 
 import XCTest
-@testable import RxContacts
 
-class RxContactsTests: XCTestCase {
+class ContactsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
