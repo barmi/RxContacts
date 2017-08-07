@@ -2,17 +2,18 @@
 # platform :ios, '9.0'
 
 target 'RxContacts' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  platform :ios, '10.3'
   use_frameworks!
 
   # Pods for RxContacts
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Realm'
+  pod 'SwiftLint'
 
   target 'RxContactsTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'Nimble', '~> 6.0.0'
   end
 
   target 'RxContactsUITests' do

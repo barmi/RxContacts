@@ -1,21 +1,27 @@
 PODS:
+  - Nimble (6.0.1)
   - Realm (2.8.3):
     - Realm/Headers (= 2.8.3)
   - Realm/Headers (2.8.3)
   - RxCocoa (3.5.0):
     - RxSwift (~> 3.4)
   - RxSwift (3.5.0)
+  - SwiftLint (0.20.1)
 
 DEPENDENCIES:
+  - Nimble (~> 6.0.0)
   - Realm
   - RxCocoa
   - RxSwift
+  - SwiftLint
 
 SPEC CHECKSUMS:
+  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
   Realm: 3601ef091c8c499a31101d8563b991e75546cdce
   RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
   RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  SwiftLint: f60095dc173a3f3ec505bb34f5229c3dfd779a54
 
-PODFILE CHECKSUM: 557a5535aeba3b3538a3c5810a2d3b682f444f95
+PODFILE CHECKSUM: d766bb5bdd8e209d7b7c401822647eba6d2f0242
 
 COCOAPODS: 1.2.1

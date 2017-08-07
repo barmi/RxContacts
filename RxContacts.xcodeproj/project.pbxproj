@@ -11,12 +11,12 @@
 		DA85D5317A02E1DAAE4E613E /* Pods_RxContacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA29012343D80FD6357E8BB /* Pods_RxContacts.framework */; };
 		E6A045E297B0C9FD86431259 /* Pods_RxContactsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB176E41145CC11D1F0CAA24 /* Pods_RxContactsTests.framework */; };
 		F4DA13621F39211500070DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DA13611F39211500070DFB /* AppDelegate.swift */; };
-		F4DA13641F39211500070DFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DA13631F39211500070DFB /* ViewController.swift */; };
-		F4DA13671F39211500070DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DA13651F39211500070DFB /* Main.storyboard */; };
 		F4DA13691F39211500070DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DA13681F39211500070DFB /* Assets.xcassets */; };
 		F4DA136C1F39211500070DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DA136A1F39211500070DFB /* LaunchScreen.storyboard */; };
-		F4DA13771F39211500070DFB /* RxContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DA13761F39211500070DFB /* RxContactsTests.swift */; };
 		F4DA13821F39211500070DFB /* RxContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DA13811F39211500070DFB /* RxContactsUITests.swift */; };
+		F4DA139B1F3928EC00070DFB /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DA139A1F3928EC00070DFB /* ContactsTests.swift */; };
+		F4DA139D1F392C4E00070DFB /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DA139C1F392C4E00070DFB /* Contacts.storyboard */; };
+		F4DA139F1F392C7800070DFB /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DA139E1F392C7800070DFB /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,17 +48,17 @@
 		B7C1659D02834C51CABA1C32 /* Pods-RxContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxContacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxContacts/Pods-RxContacts.debug.xcconfig"; sourceTree = "<group>"; };
 		F4DA135E1F39211500070DFB /* RxContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DA13611F39211500070DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4DA13631F39211500070DFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4DA13661F39211500070DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4DA13681F39211500070DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4DA136B1F39211500070DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4DA136D1F39211500070DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DA13721F39211500070DFB /* RxContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DA13761F39211500070DFB /* RxContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxContactsTests.swift; sourceTree = "<group>"; };
 		F4DA13781F39211500070DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DA137D1F39211500070DFB /* RxContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DA13811F39211500070DFB /* RxContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxContactsUITests.swift; sourceTree = "<group>"; };
 		F4DA13831F39211500070DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DA139A1F3928EC00070DFB /* ContactsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTests.swift; sourceTree = "<group>"; };
+		F4DA139C1F392C4E00070DFB /* Contacts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Contacts.storyboard; sourceTree = "<group>"; };
+		F4DA139E1F392C7800070DFB /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,12 +137,10 @@
 		F4DA13601F39211500070DFB /* RxContacts */ = {
 			isa = PBXGroup;
 			children = (
-				F4DA13611F39211500070DFB /* AppDelegate.swift */,
-				F4DA13631F39211500070DFB /* ViewController.swift */,
-				F4DA13651F39211500070DFB /* Main.storyboard */,
-				F4DA13681F39211500070DFB /* Assets.xcassets */,
-				F4DA136A1F39211500070DFB /* LaunchScreen.storyboard */,
-				F4DA136D1F39211500070DFB /* Info.plist */,
+				F4DA13971F39275700070DFB /* Features */,
+				F4DA13961F3926E200070DFB /* App */,
+				F4DA13951F3926D500070DFB /* Extensions */,
+				F4DA13941F3926CF00070DFB /* Helpers */,
 			);
 			path = RxContacts;
 			sourceTree = "<group>";
@@ -150,7 +148,7 @@
 		F4DA13751F39211500070DFB /* RxContactsTests */ = {
 			isa = PBXGroup;
 			children = (
-				F4DA13761F39211500070DFB /* RxContactsTests.swift */,
+				F4DA13991F3928CE00070DFB /* Contact */,
 				F4DA13781F39211500070DFB /* Info.plist */,
 			);
 			path = RxContactsTests;
@@ -163,6 +161,88 @@
 				F4DA13831F39211500070DFB /* Info.plist */,
 			);
 			path = RxContactsUITests;
+			sourceTree = "<group>";
+		};
+		F4DA138F1F3926B200070DFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4DA139E1F392C7800070DFB /* Contact.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F4DA13901F3926B900070DFB /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				F4DA13931F3926C900070DFB /* ViewModels */,
+				F4DA13921F3926C500070DFB /* Controllers */,
+				F4DA13911F3926C000070DFB /* Views */,
+				F4DA138F1F3926B200070DFB /* Models */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		F4DA13911F3926C000070DFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4DA139C1F392C4E00070DFB /* Contacts.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F4DA13921F3926C500070DFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F4DA13931F3926C900070DFB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		F4DA13941F3926CF00070DFB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F4DA13951F3926D500070DFB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F4DA13961F3926E200070DFB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F4DA13681F39211500070DFB /* Assets.xcassets */,
+				F4DA136D1F39211500070DFB /* Info.plist */,
+				F4DA136A1F39211500070DFB /* LaunchScreen.storyboard */,
+				F4DA13611F39211500070DFB /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		F4DA13971F39275700070DFB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F4DA13901F3926B900070DFB /* Contact */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		F4DA13991F3928CE00070DFB /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				F4DA139A1F3928EC00070DFB /* ContactsTests.swift */,
+			);
+			name = Contact;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +258,7 @@
 				F4DA135C1F39211500070DFB /* Resources */,
 				F451D0AA0FBCB2C24D4B6614 /* [CP] Embed Pods Frameworks */,
 				AA3C7D18FB8A4A7E4AABEE83 /* [CP] Copy Pods Resources */,
+				F4DA13981F3927C200070DFB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -284,9 +365,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DA139D1F392C4E00070DFB /* Contacts.storyboard in Resources */,
 				F4DA136C1F39211500070DFB /* LaunchScreen.storyboard in Resources */,
 				F4DA13691F39211500070DFB /* Assets.xcassets in Resources */,
-				F4DA13671F39211500070DFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +508,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxContacts/Pods-RxContacts-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F4DA13981F3927C200070DFB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
 		FF5A34BBECBF557036081013 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,7 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DA13641F39211500070DFB /* ViewController.swift in Sources */,
+				F4DA139F1F392C7800070DFB /* Contact.swift in Sources */,
 				F4DA13621F39211500070DFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,7 +552,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DA13771F39211500070DFB /* RxContactsTests.swift in Sources */,
+				F4DA139B1F3928EC00070DFB /* ContactsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,14 +580,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F4DA13651F39211500070DFB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4DA13661F39211500070DFB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4DA136A1F39211500070DFB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -605,6 +691,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K87XPR878Y;
 				INFOPLIST_FILE = RxContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.RxContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -619,6 +706,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K87XPR878Y;
 				INFOPLIST_FILE = RxContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.RxContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -707,6 +795,7 @@
 				F4DA13881F39211500070DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4DA13891F39211500070DFB /* Build configuration list for PBXNativeTarget "RxContactsTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +804,7 @@
 				F4DA138B1F39211500070DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4DA138C1F39211500070DFB /* Build configuration list for PBXNativeTarget "RxContactsUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +813,7 @@
 				F4DA138E1F39211500070DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
