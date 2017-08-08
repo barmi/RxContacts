@@ -6,4 +6,4 @@
 - [ ] Contact Model (Unit tests, Model, ViewModel, CRUD)
 - [ ] Database Storage
 - [ ] Application Flow (Inteface & Controllers)
-- [ ] CI Integration
+- [ X ] CI Integration
