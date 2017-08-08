@@ -42,4 +42,10 @@ class ContactsTests: XCTestCase {
         expect(contactWithoutName.name).notTo(equal(""), description: "First name should never be empty")
         expect(contactWithoutName.name).to(equal("NoName"), description: "Default name should be NoName")
     }
+
+    func testContactViewModel_ShouldReturnFullName() {
+        contact.lastName = "Bolivar"
+        let contactViewModel = ContactViewModel(contact: contact)
+        expect(contactViewModel.fullName).to(equal("Bryan Bolivar"), description: "Full name should be Bryan Bolivar, got \(contactViewModel.fullName)")
+    }
 }
