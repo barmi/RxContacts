@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import RxSwift
+import RxCocoa
 
 struct ContactViewModel {
     let contact: Contact!

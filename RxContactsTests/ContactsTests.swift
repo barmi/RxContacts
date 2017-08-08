@@ -46,7 +46,6 @@ class ContactsTests: XCTestCase {
     func testContactViewModel_ShouldReturnFullName() {
         contact.lastName = "Bolivar"
         let contactViewModel = ContactViewModel(contact: contact)
-        expect(contactViewModel.fullName).to(equal("Bryan Bolivar"),
-                                             description: "Full name should be Bryan Bolivar, got \(contactViewModel.fullName)")
+        expect(contactViewModel.fullName).to(equal("Bryan Bolivar"), description: "Full name should be Bryan Bolivar")
     }
 }

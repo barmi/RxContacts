@@ -8,6 +8,7 @@ target 'RxContacts' do
   # Pods for RxContacts
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxDataSources'
   pod 'Realm'
   pod 'SwiftLint'
 

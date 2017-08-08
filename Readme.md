@@ -4,8 +4,8 @@
 
 ## Contacts List Sample app, uses RxSwift, Realm And a MVVM Architecture.
 
-- [ ] Project setup
+- [ X ] Project setup
 - [ ] Contact Model (Unit tests, Model, ViewModel, CRUD)
 - [ ] Database Storage
-- [ ] Application Flow (Inteface & Controllers)
+- [ X ] Application Flow (Inteface & Controllers)
 - [ X ] CI Integration
